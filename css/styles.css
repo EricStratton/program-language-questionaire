@@ -1,14 +1,24 @@
-* {
+ * {
   font-family: monospace;
   box-sizing: border-box;
 }
 body {
   background-color: antiquewhite;
 }
+.questions {
+  position: relative;
+  display: grid;
+  padding: 15px;
+}
+.form-group {
+  position: relative;
+  display: grid;
+  width: 200px;
+  padding: 15px;
+}
 .radio {
   display: block;
   position: relative;
-  padding-left: 40px;
   user-select: none;
 }
 .radio .container {
@@ -18,20 +28,19 @@ body {
   display: block;
   position: relative;
   cursor: pointer;
-  width: 500px;
-  padding: 20px;
-}
-.form-group {
-  width: 200px;
-  padding: 20px;
+  width: fit-content;
 }
 #result1, #result2, #result3 {
   display: none;
 }
 .btn {
-  background-color: darkgray;
+  background-color: #24a0ed;
   color: whitesmoke;
   text-decoration: underline;
+  position: relative;
+  display: grid;
+  padding: 15px;
+  margin-bottom: 20px;
 }
 img {
   width: 200px;

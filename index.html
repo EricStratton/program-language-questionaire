@@ -21,61 +21,67 @@
         <input id="userName" class="form-control" type="text">
       </div>
       
-      <p>Which of these do you like best?:</p>
-      <select class="form-control" id="select1">
-        <option value="1">Cats</option>
-        <option value="2">Dogs</option>
-        <option value="3">Squirrels</option>
-        <option value="4">Rabbits</option>
-      </select>
-
-      <p>Pick your favorite from the list below!:</p>
-      <div class="radio" id="radio1">
-        <label class="container">
-          <input type="radio" name="q2" value="1" checked>
-          Long walks on the beach
-        </label>
-        <label class="container">
-          <input type="radio" name="q2" value="2">
-          Short walks on the beach
-        </label>
-        <label class="container">
-          <input type="radio" name="q2" value="3">
-          Not having to walk
-        </label>
+      <div class="questions">
+        <p>Which of these do you like best?:</p>
+        <select class="form-control" id="select1">
+          <option value="1">Cats</option>
+          <option value="2">Dogs</option>
+          <option value="3">Squirrels</option>
+          <option value="4">Rabbits</option>
+        </select>
+      </div>  
+      <div class="questions">
+        <p>Pick your favorite from the list below!:</p>
+        <div class="radio" id="radio1">
+          <label class="container">
+            <input type="radio" name="q2" value="1" checked>
+            Long walks on the beach
+          </label>
+          <label class="container">
+            <input type="radio" name="q2" value="2">
+            Short walks on the beach
+          </label>
+          <label class="container">
+            <input type="radio" name="q2" value="3">
+            Not having to walk
+          </label>
+        </div>
       </div>
-
-      <p>Select which describes you most:</p>
-      <select class="form-control" id="select2">
-        <option value="1">I like to understand how individual components contribute to a whole</option>
-        <option value="2">I like to understand how things work on a deeper level</option>
-        <option value="3">I like to focus on how things work as far as the user is concerned</option>
-        <option value="4">I like the focus on aethetics and design </option>
-      </select>
-
-      <p>You're walking home from work, which do you listen to?:</p>
-      <div class="radio" id="radio2">
-        <label class="container">
-          <input type="radio" name="q4" value="1" checked>
-          Shanai Twain
-        </label>
-        <label class="container">
-          <input type="radio" name="q4" value="2">
-          Rick Astley
-        </label>
-        <label class="container">
-          <input type="radio" name="q4" value="3">
-          Sun Ra
-        </label>
+      <div class="questions">
+        <p>Select which describes you most:</p>
+        <select class="form-control" id="select2">
+          <option value="1">I like to understand how individual components contribute to a whole</option>
+          <option value="2">I like to understand how things work on a deeper level</option>
+          <option value="3">I like to focus on how things work as far as the user is concerned</option>
+          <option value="4">I like the focus on aethetics and design </option>
+        </select>
       </div>
-
-      <p>Your partner chews with their mouth open, what do you do?:</p>
-      <select class="form-control" id="select3">
-        <option value="1">Run and never look back</option>
-        <option value="2">Spontaneously throw up</option>
-        <option value="3">Fake fainting</option>
-        <option value="4">Politely ask them chew close their mouth</option>
-      </select>
+      <div class="questions">
+        <p>You're walking home from work, which do you listen to?:</p>
+        <div class="radio" id="radio2">
+          <label class="container">
+            <input type="radio" name="q4" value="1" checked>
+            Shanai Twain
+          </label>
+          <label class="container">
+            <input type="radio" name="q4" value="2">
+            Rick Astley
+          </label>
+          <label class="container">
+            <input type="radio" name="q4" value="3">
+            Sun Ra
+          </label>
+        </div>
+      </div>
+      <div class="questions">
+        <p>Your partner chews with their mouth open, what do you do?:</p>
+        <select class="form-control" id="select3">
+          <option value="1">Run and never look back</option>
+          <option value="2">Spontaneously throw up</option>
+          <option value="3">Fake fainting</option>
+          <option value="4">Politely ask them chew close their mouth</option>
+        </select>
+      </div>
 
       <button type="submit" class="btn">Generate!</button>
     </form>
