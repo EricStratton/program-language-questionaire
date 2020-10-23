@@ -19,3 +19,7 @@ body {
 #result1, #result2, #result3 {
   display: none;
 }
+img {
+  width: 200px;
+  height: auto;
+}
