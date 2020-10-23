@@ -1,11 +1,11 @@
-
+// Business Logic //
 function add(q1, q2, q3, q4, q5) {
   return q1 + q2 + q3 + q4 + q5;
 };
 
 
 
-
+// User Interface Logic//
 $(document).ready(function () {
   $("form#questionaire").submit(function (event) {
     event.preventDefault();
@@ -16,11 +16,12 @@ $(document).ready(function () {
     const q5 = parseInt($("#select3").val());
 
     const result = add(q1, q2, q3, q4, q5)
-    // $("#test").text(result);
 
-    if (result >= 14) {
+    $("#questionaire").toggle();
+
+    if (result >= 13) {
       $('#result1').show();
-    } else if (result < 13 && result > 7) {
+    } else if (result < 12 && result > 6) {
       $('#result2').show();
     } else {
       $('#result3').show();
