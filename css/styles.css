@@ -5,11 +5,10 @@ body {
   display: block;
   position: relative;
   padding-left: 40px;
-  cursor: pointer;
   user-select: none;
 }
-.radio container {
-  display: none;
+.radio .container {
+  cursor: pointer;
 }
 #select1, #select2, #select3 {
   display: block;
@@ -18,6 +17,9 @@ body {
 }
 #result1, #result2, #result3 {
   display: none;
+}
+.btn {
+  text-decoration: underline;
 }
 img {
   width: 200px;
