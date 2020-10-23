@@ -3,4 +3,12 @@
   position: relative;
   padding-left: 40px;
   cursor: pointer;
+  user-select: none;
+}
+#q1, #q3, #q5 {
+  display: block;
+
+}
+#result1, #result2, #result3 {
+  display: none;
 }

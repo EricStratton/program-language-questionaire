@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Coding Language Questionaire</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.5.1.js"></script>
@@ -13,60 +13,82 @@
   <div class="container">
     <h1>Which coding language is right for you?</h1>
     <form id="questionaire">
-      <select class="q1">
+
+      <p>Which of these do you like best?</p>
+      <select class="form-control" id="select1">
         <option value="1">option1</option>
         <option value="2">option2</option>
         <option value="3">option3</option>
         <option value="4">option4</option>
       </select>
 
+      <p>Pick your favorite from the list below!</p>
       <div class="radio" id="radio1">
-        <label>
+        <label class="container">
           <input type="radio" name="q2" value="1" checked>
           option1
         </label>
-        <label>
+        <label class="container">
           <input type="radio" name="q2" value="2">
           option2
         </label>
-        <label>
+        <label class="container">
           <input type="radio" name="q2" value="3">
           option3
         </label>
       </div>
 
-      <select class="q2">
+      <p>Choose from the options below!</p>
+      <select class="form-control" id="select2">
         <option value="1">option1</option>
         <option value="2">option2</option>
         <option value="3">option3</option>
         <option value="4">option4</option>
       </select>
 
+      <p>You're walking home from work, which do you listen to?</p>
       <div class="radio" id="radio2">
-        <label>
+        <label class="container">
           <input type="radio" name="q4" value="1" checked>
           option1
         </label>
-        <label>
+        <label class="container">
           <input type="radio" name="q4" value="2">
           option2
         </label>
-        <label>
+        <label class="container">
           <input type="radio" name="q4" value="3">
           option3
         </label>
       </div>
 
-
-      <select class="q3">
+      <p>Your partner chews with their mouth open, what do you do?</p>
+      <select class="form-control" id="select3">
         <option value="1">option1</option>
         <option value="2">option2</option>
         <option value="3">option3</option>
         <option value="4">option4</option>
       </select>
 
-
+      <button type="submit" class="btn">Generate!</button>
     </form>
+
+    <div id="result1">
+      <p>JavaScript!</p>
+    </div>
+
+    <div id="result2">
+      <p>C#</p>
+    </div>
+
+    <div id="result3">
+      <p>Ruby</p>
+    </div>
+
+    <div id="test">
+      
+    </div>
+
   </div>
 </body>
 </html>
