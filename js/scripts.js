@@ -17,8 +17,11 @@ $(document).ready(function () {
 
     const result = add(q1, q2, q3, q4, q5)
 
+    if ($(#'userName').val().length === 0) {
+      alert('Enter your name!');
+    }
 
-    $("#questionaire").toggle();
+    $("#questionaire").fadeOut();
 
     $(".userName").text(userNameInput);
 

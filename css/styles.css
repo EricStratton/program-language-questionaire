@@ -19,6 +19,8 @@ body {
   display: none;
 }
 .btn {
+  background-color: darkgray;
+  color: whitesmoke;
   text-decoration: underline;
 }
 img {
