@@ -1,12 +1,12 @@
-# Coding Language Placement Quiz
+# Code Language Placement Questionaire
 
-#### _This webpage supplies a quiz to help new coding students choose the right language for them to start, vs: 10/16/2020_
+#### _Multi-branch questionaire, vs: 10/23/2020_
 
 #### _Created by: Eric Stratton_
 
 ## Description
 
-This webpage contains a questionaire which gives users a score. Based on the user's score, they are directed to 1 of 3 different languages which would be the best suited language for them to start their coding journey with.
+This webpage contains a questionaire which gives users a score. Based on the user's score, they are directed to 1 of 3 different coding languages which would be the best suited language for them to begin their coding experience with.
 
 ## Setup/Instillation 
 
@@ -24,7 +24,7 @@ This webpage contains a questionaire which gives users a score. Based on the use
 - Navigate to desktop in terminal using `$ cd desktop`
 - Copy repository link by clicking on green 'Code' icon and clicking the clipboard to the right of the url
 - Use command `$ git clone {specific_repository_URL}`
-- From `desktop` directory, run command `$ cd {newly-downloaded-directory}` to enter that directory in terminal
+- From `desktop`, run command `$ cd {newly-downloaded-directory}` to navigate to the installed directory
 - Run command `code .` to open directory in default code editor
 
 ## Known Bugs
@@ -50,4 +50,6 @@ If any issues arise do not hesitate to contact me at:
 
 ## Licensing
 
-MIT License 2020
+Copyright (c) 2020 Eric Stratton
+
+This software is licensed under the MIT license

@@ -25,7 +25,6 @@ body {
   cursor: pointer;
 }
 #select1, #select2, #select3 {
-  appearance: none;
   display: grid;
   position: relative;
   cursor: pointer;
@@ -33,6 +32,10 @@ body {
 }
 #result1, #result2, #result3 {
   display: none;
+}
+#result1 p, #result2 p, #result3 p {
+  padding: 6px;
+  margin: 5px;
 }
 .btn {
   background-color: #24a0ed;
