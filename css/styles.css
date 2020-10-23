@@ -25,7 +25,8 @@ body {
   cursor: pointer;
 }
 #select1, #select2, #select3 {
-  display: block;
+  appearance: none;
+  display: grid;
   position: relative;
   cursor: pointer;
   width: fit-content;
@@ -40,7 +41,13 @@ body {
   position: relative;
   display: grid;
   padding: 15px;
+  left: 12px;
+  margin-top: 15px;
   margin-bottom: 20px;
+}
+.userName {
+  font-style: oblique;
+  font-weight: bold;
 }
 img {
   width: 200px;
