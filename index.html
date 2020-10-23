@@ -15,6 +15,11 @@
 
     <form id="questionaire">
       <p>This quiz is designed to tell you which coding language best suits you. Its science backed approach is guaranteed to place you with the langugage which best suits your personality, guaranteed!</p>
+
+      <div class="form-group">
+        <label for="userName">Enter your name here:</label>
+        <input id="userName" class="form-control" type="text">
+      </div>
       
       <p>Which of these do you like best?</p>
       <select class="form-control" id="select1">
@@ -77,18 +82,21 @@
 
     <div id="result1">
       <h2>JavaScript!</h2>
+      <p>Hello, <span class="userName"></span></p>
       <p>Looks like you're best suited to learning JavaScript! It's a powerful front-end development tool and you have a lot of creative freedom with in.</p>
       <p>Congradulations on your result!</p>
     </div>
 
     <div id="result2">
       <h2>C#</h2>
+      <p>Hello, <span class="userName"></span></p>
       <p>Looks like you're best suited to learning C#. It's a server-side development tool that will give you lots of room to learn about and understand how back-end development works.</p>
       <p>Congradulations on your result!</p>
     </div>
 
     <div id="result3">
       <h2>Ruby</h2>
+      <p>Hello, <span class="userName"></span></p>
       <p>Looks like you're best suited to learning Ruby! It's a major tool used for app development. You'll have the opportunity to make some interesting and useful applications for people's devices.</p>
       <p>Congradulations on your result!</p>
     </div>
