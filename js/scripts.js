@@ -8,6 +8,7 @@ function add(q1, q2, q3, q4, q5) {
 $(document).ready(function () {
   $("form#questionaire").submit(function (event) {
     event.preventDefault();
+
     const userNameInput = $("input#userName").val();
     const q1 = parseInt($("#select1").val());
     const q2 = parseInt($("input:radio[name=q2]:checked").val());
@@ -17,9 +18,7 @@ $(document).ready(function () {
 
     const result = add(q1, q2, q3, q4, q5)
 
-    if ($(#'userName').val().length === 0) {
-      alert('Enter your name!');
-    }
+
 
     $("#questionaire").fadeOut();
 

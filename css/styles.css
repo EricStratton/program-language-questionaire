@@ -1,3 +1,7 @@
+* {
+  font-family: monospace;
+  box-sizing: border-box;
+}
 body {
   background-color: antiquewhite;
 }
@@ -14,6 +18,12 @@ body {
   display: block;
   position: relative;
   cursor: pointer;
+  width: 500px;
+  padding: 20px;
+}
+.form-group {
+  width: 200px;
+  padding: 20px;
 }
 #result1, #result2, #result3 {
   display: none;
