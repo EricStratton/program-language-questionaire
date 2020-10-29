@@ -14,6 +14,10 @@ This webpage contains a questionaire which gives users a score. Based on the use
 - Internet browser
 - Code editor if you want to view/edit the code 
 
+## View Online:
+
+Visit my questionaire online at: https://ericstratton.github.io/program-language-questionaire/
+
 ### Download:
 - Download this repository by click the green 'Code' icon and selecting download zip
 - Use your favorite zip.file opener to extract files to your local device
